@@ -1,5 +1,8 @@
 services:
   entente_service:
+    build:
+      context: .
+      dockerfile: Dockerfile
     image: entente_image
     deploy:
       resources:

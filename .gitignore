@@ -1,2 +1,8 @@
 .devcontainer/
 SplitCap.exe
+
+# entente/ENTENTE: 大容量データセット・実験出力・キャッシュは追跡しない
+entente/ENTENTE/data/
+entente/ENTENTE/Exps/
+**/__pycache__/
+*.pyc
