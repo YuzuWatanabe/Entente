@@ -1,0 +1,19 @@
+services:
+  entente_service:
+    image: entente_image
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [gpu]
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - ~/w_yuzu_project/Entente/workspace:/workspace
+    working_dir: /workspace
+    ports:
+      - "8889:8888"
+    runtime: nvidia
+    tty: true
+    stdin_open: true
