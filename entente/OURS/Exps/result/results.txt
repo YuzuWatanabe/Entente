@@ -1,0 +1,23 @@
+======New Exp======
+Namespace(cdp_defense=False, client='0', client_list=['0', '1', '2'], client_number='3', cluster_fname='optc_2_2.json', dataset='OPTC', delta=0.1, dp_defense=False, encoder_name='GCN', epochs='1', equal_weights=False, fed='Momentum', fedopt_epoch=5, flows=False, fpweight=0.6, gpu=True, hidden=32, impl='DETECT', load=False, lr=0.005, nb_defense=False, ngrus=1, nowrite=False, patience=100, personalization=False, poison=False, poison_client=[2], poison_defense=False, poison_lambda=100, poison_p=0.5, rnn='GRU', te_end='all', test_client='All', tests=1, zdim=16)
+GCN -> GRU (DETECT), LR: 0.005
+======New Exp======
+Namespace(cdp_defense=False, client='0', client_list=['0', '1', '2'], client_number='3', cluster_fname='optc_2_2.json', dataset='OPTC', delta=0.1, dp_defense=False, encoder_name='GCN', epochs='1', equal_weights=False, fed='Momentum', fedopt_epoch=5, flows=False, fpweight=0.6, gpu=True, hidden=32, impl='DETECT', load=False, lr=0.005, nb_defense=False, ngrus=1, nowrite=False, patience=100, personalization=False, poison=False, poison_client=[2], poison_defense=False, poison_lambda=100, poison_p=0.5, rnn='GRU', te_end='all', test_client='All', tests=1, zdim=16)
+GCN -> GRU (DETECT), LR: 0.005
+test
+	TPR	FPR	TP	FP	F1	AUC	AP	FwdTime	tn	fp	fn	tp	TPE	tr_time
+mean	0.7980295566502463	0.02897327202184222	972.0	3226.0	0.3589364844903988	0.9783317786608924	0.2793475045339957	0.3996610641479492	108118.0	3226.0	246.0	972.0	3.2897345225016275	75.67192339897156
+stderr														
+
+test, 0.7980295566502463, 0.02897327202184222, 972, 3226, 0.3589364844903988, 0.9783317786608924, 0.2793475045339957, 0.3996610641479492, 108118, 3226, 246, 972, 3.2897345225016275, 75.67192339897156
+
+======New Exp======
+Namespace(cdp_defense=False, client='0', client_list=['0', '1', '2'], client_number='3', cluster_fname='optc_2_2.json', dataset='OPTC', delta=0.1, dp_defense=False, encoder_name='GCN', epochs='1', equal_weights=False, fed='Momentum', fedopt_epoch=5, flows=False, fpweight=0.6, gpu=True, hidden=32, impl='DETECT', load=False, lr=0.005, nb_defense=False, ngrus=1, nowrite=False, patience=100, personalization=False, poison=False, poison_client=[2], poison_defense=False, poison_lambda=100, poison_p=0.5, rnn='GRU', te_end='all', test_client='All', tests=1, zdim=16)
+GCN -> GRU (DETECT), LR: 0.005
+test
+	TPR	FPR	TP	FP	F1	AUC	AP	FwdTime	tn	fp	fn	tp	TPE	tr_time
+mean	0.7980295566502463	0.02897327202184222	972.0	3226.0	0.3589364844903988	0.9783318339636968	0.27935701561075343	0.3958737850189209	108118.0	3226.0	246.0	972.0	3.264542738596598	75.878178358078
+stderr														
+
+test, 0.7980295566502463, 0.02897327202184222, 972, 3226, 0.3589364844903988, 0.9783318339636968, 0.27935701561075343, 0.3958737850189209, 108118, 3226, 246, 972, 3.264542738596598, 75.878178358078
+
